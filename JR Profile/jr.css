@@ -1,0 +1,207 @@
+/* home section*/
+.site-title{
+
+    position: absolute;
+    left: 5rem;
+    top: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+color: white;
+font-size: medium;
+border: 2px solid red; /* Width, Style, Color */
+    padding: 10px;           /* Space between text and the border */
+    display: inline-block;   /* Makes the border fit the text size only */
+    padding-bottom: 5;
+}
+
+.profile-img{
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    top: 20%;
+    left: 40%;
+    height: 300px;
+    width: 325px;
+    border-radius: 100%;
+    display: block;
+}
+.overlay-text{
+ position: absolute;
+ left: 600px;
+ top: 400px;
+ color: white;
+ font-size: 2rem;
+ font-family: 'Times New Roman', Times, serif;
+}
+.space{
+    position: absolute;
+   left: 620px;
+ top: 500px;
+ color: white;
+ font-size: 2rem;
+ font-family: 'Times New Roman', Times, serif;
+}
+.home{
+    display: inline-block;
+    color:#f8fafc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    left: 50rem;
+    top: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+/*how to effect*/
+.home:hover {
+    background-color: transparent;
+    text-decoration: underline;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.about{
+     display: inline-block;
+    color:#f8fafc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    left: 55rem;
+    top: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    }
+    /* Hover Effect */
+.about:hover {
+    background-color: transparent;
+    text-decoration: underline;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+    .social-media{
+        position: absolute;
+        font-size: 2rem;
+        font-family: 'Times New Roman', Times, serif;
+        top: 110%;
+        bottom: 20%;
+        left: 10%;
+    }
+    /*all page*/
+body {
+    background-color: black;
+    color: #f8fafc;
+}
+/*about section*/
+.about-img{
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    top: 10%;
+    left: 35%;
+    height: 300px;
+    width: 325px;
+    border-radius: 100%;
+    display: block;
+}
+.aboutjobayar{
+    font-size: 2.5rem;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    font-weight: lighter; 
+}
+.details{
+    position: absolute;
+    font-size: 1.9rem;
+    font-family: 'Times New Roman', Times, serif;
+    left: 10%;
+    top: 70%;
+    right: 5%;
+    line-height: 1.1;
+    max-width: 70ch;
+}
+/*Contact Page*/
+/* contact.css or add to jr.css */
+.contact{
+     display: inline-block;
+    color:#f8fafc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    left: 62rem;
+    top: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    }
+    .contact:hover {
+    background-color: transparent;
+    text-decoration: underline;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+    .C{
+        position: absolute;
+        font-size: 2.5rem;
+        font-family: 'Times New Roman', Times, serif;
+        left: 38%;
+        right: 50%;
+        top: 12%;
+    }
+    .email-button {
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    padding: 15px 30px;
+    background-color: #000; /* Solid black to match your LinkedIn badge */
+    color: #fff;            /* White text */
+    text-decoration: none;  /* Removes the default link underline */
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 8px;     /* Matches your form and badge corners */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    border: 2px solid #000;
+}
+
+/* Hover Effect */
+.email-button:hover {
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.facebook{
+    color: #f8fafc;
+    text-transform: uppercase;
+     position: absolute;
+    top: 50%;
+    left: 30%;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+.facebook:hover{
+    background-color: transparent;
+    color:red;
+    cursor: pointer;
+    text-transform: lowercase
+}
+.linkedin{
+    color: #f8fafc;
+    text-transform: uppercase;
+     position: absolute;
+    top:60%;
+    left: 30%;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+.linkedin:hover{
+    background-color: transparent;
+    color:red;
+    cursor: pointer;
+    text-transform: lowercase
+}
